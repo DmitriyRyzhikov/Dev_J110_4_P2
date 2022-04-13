@@ -2,10 +2,11 @@
 package Dev_J110;
 
 
-public class Tangens implements Function{
+/*Класс Tangens с методом double tan(double argument). Функциональный интерфейс 
+будет реализован через ссылку на этот экземплярный метод.*/
+public class Tangens {
     
-   @Override
-    public double getValue(double argument) {
-     return Math.tan(argument); 
-    }
+      public double tan(double argument) {     
+        return Math.tan(argument);
+    } 
 }
